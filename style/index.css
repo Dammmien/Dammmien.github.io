@@ -1,0 +1,38 @@
+#posts-container article{
+	margin: 0 0 20px 0;
+}
+
+#posts-container article p{
+	display: block;
+}
+
+#posts-container article p + p{
+	display: none;
+}
+
+#posts-container .infos{
+	border-top: 2px solid #DDDDDD;
+	padding: 30px 0 0 0;
+	color: #444444;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'open_sansbold', sans-serif;
+}
+
+#posts-container .infos .more{
+	display: inline-block;
+	float: right;
+	color: #444444;
+	font-size: 14px;
+	padding: 4px 15px;
+	border: 2px solid #444444;
+	text-decoration: none;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#posts-container .infos .more:hover{
+	background: #444444;
+	color: #FFFFFF;
+}
