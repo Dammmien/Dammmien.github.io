@@ -1,50 +1,51 @@
 {
     "works": [ {
-        "name": "Marlette",
+        "name": "Project",
+        "url": "project.html",
         "job": "UI & UX Design / Front-End Development",
         "color": "#BED600"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#00AEEF"
     }, {
-        "name": "Planète ciné",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Mobile Development",
         "color": "#b51b25"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#123456"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#BED600"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#123456"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#00AEEF"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#b51b25"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#456789"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#b51b25"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#b51b25"
     }, {
-        "name": "Cap' Mundo",
+        "name": "Lorem Ipsum",
         "job": "Branding / UI & UX Design / Front & Back Development",
         "color": "#b51b25"
     } ]

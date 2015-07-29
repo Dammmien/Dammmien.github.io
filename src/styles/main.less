@@ -10,6 +10,15 @@ html, body{
   font-family: 'Open Sans', sans-serif;
   color: @dark;
   background-color: white;
+
+  &::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-thumb{
+    background-color: @dark;
+  }
 }
 
 #content{
@@ -46,5 +55,6 @@ html, body{
 @import "inspiration.less";
 @import "quotes.less";
 @import "works.less";
+@import "project.less";
 @import "about.less";
 @import "responsive.less";

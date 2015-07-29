@@ -1,28 +1,30 @@
-#inspiration{
+#inspiration {
 
-    div.img-container{
-        float: left;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
+    #content{
+        background: @light;
 
-        a{
-            display: none;
-            width: 100%;
-            height: 100%;
+        div.img-container{
+            float: left;
+            background-size: cover;
             background-position: center center;
-            background-size: 60%;
             background-repeat: no-repeat;
-        }
-
-        &:hover{
-            background-image: none!important;
 
             a{
-                display: block;
+                display: none;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-size: 60%;
+                background-repeat: no-repeat;
+            }
+
+            &:hover{
+                background-image: none!important;
+
+                a{
+                    display: block;
+                }
             }
         }
-
     }
-
 }

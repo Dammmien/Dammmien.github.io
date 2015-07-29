@@ -7,6 +7,15 @@ body {
   color: #333333;
   background-color: white;
 }
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 0;
+}
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #333333;
+}
 #content {
   position: absolute;
   left: 0;
@@ -177,13 +186,16 @@ header #menu a:after {
   font-size: 16px;
   letter-spacing: 2px;
 }
-#inspiration div.img-container {
+#inspiration #content {
+  background: #f5f5f5;
+}
+#inspiration #content div.img-container {
   float: left;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-#inspiration div.img-container a {
+#inspiration #content div.img-container a {
   display: none;
   width: 100%;
   height: 100%;
@@ -191,10 +203,10 @@ header #menu a:after {
   background-size: 60%;
   background-repeat: no-repeat;
 }
-#inspiration div.img-container:hover {
+#inspiration #content div.img-container:hover {
   background-image: none!important;
 }
-#inspiration div.img-container:hover a {
+#inspiration #content div.img-container:hover a {
   display: block;
 }
 #content.quotes {
@@ -234,35 +246,87 @@ header #menu a:after {
   background: #333333;
   width: 0;
 }
-#works {
+#works #content {
   padding: 20px;
+  background: #f5f5f5;
 }
-#works .col {
+#works #content .col {
   box-sizing: border-box;
   padding: 20px;
   width: 25%;
   float: left;
 }
-#works .col .works {
+#works #content .col .works {
   background: white;
 }
-#works .col .miniatures {
+#works #content .col .miniatures {
   width: 100%;
   height: 300px;
   background: #333333;
 }
-#works .col .description {
+#works #content .col .description {
   padding: 30px;
 }
-#works .col .description .name {
+#works #content .col .description .name {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 16px;
   margin: 0 0 10px 0;
 }
-#works .col .description .job {
+#works #content .col .description .job {
   color: #aaaaaa;
   font-size: 12px;
+}
+#project #content {
+  background: #f5f5f5;
+}
+#project #content .center {
+  width: 100%;
+  max-width: 900px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#project #content #header {
+  color: white;
+  padding: 200px 0;
+  margin: 0 0 -100px 0;
+}
+#project #content #header h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+}
+#project #content #header #description {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  text-align: justify;
+  margin: 30px auto 0 auto;
+  font-size: 13px;
+  line-height: 2;
+}
+#project #content img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  margin: 0 0 20px 0;
+}
+#project #content img.left,
+#project #content img.right {
+  width: 50%;
+  box-sizing: border-box;
+}
+#project #content img.left {
+  padding: 0 10px 0 0;
+}
+#project #content img.right {
+  padding: 0 0 0 10px;
 }
 #about {
   background: #f5f5f5;

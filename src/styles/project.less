@@ -1,0 +1,62 @@
+#project{
+
+    #content{
+        background: @light;
+
+        .center{
+            width: 100%;
+            max-width: 900px;
+            padding: 0 20px;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        #header{
+            color: white;
+            padding: 200px 0;
+            margin: 0 0 -100px 0;
+
+            h2{
+                text-transform: uppercase;
+                font-size: 24px;
+                letter-spacing: 1.5px;
+                font-weight: 800;
+                margin: 0 0 20px 0;
+            }
+
+            #description{
+                -webkit-column-count: 2;
+                -moz-column-count: 2;
+                column-count: 2;
+                -webkit-column-gap: 40px;
+                -moz-column-gap: 40px;
+                column-gap: 40px;
+                text-align: justify;
+                margin: 30px auto 0 auto;
+                font-size: 13px;
+                line-height: 2;
+            }
+        }
+
+        img{
+            width: 100%;
+            max-width: 100%;
+            vertical-align: middle;
+            margin: 0 0 20px 0;
+
+            &.left,
+            &.right{
+                width: 50%;
+                box-sizing: border-box;
+            }
+
+            &.left{
+                padding: 0 10px 0 0;
+            }
+
+            &.right{
+                padding: 0 0 0 10px;
+            }
+        }
+    }
+}
