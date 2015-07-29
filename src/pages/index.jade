@@ -1,0 +1,22 @@
+extends ../templates/base.jade
+
+block title
+    title Damien Duhamel
+
+block body
+    body#index
+        include ../templates/header.jade
+        div#content
+            video#video(loop muted)
+                source(src="images/home.mp4" type="video/mp4")
+            div.overlay-texture
+            #vertical-container
+                div#name
+                    div Damien Duhamel
+                div#presentation
+                    | User interface designer
+                    br
+                    | and developer based in Paris
+
+block scripts
+    script(src='js/index.js')

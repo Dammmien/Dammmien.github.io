@@ -1,0 +1,13 @@
+extends ../templates/base.jade
+
+block title
+    title Inspiration Feed
+
+block body
+    body#inspiration
+        include ../templates/header.jade
+        div#content
+
+block scripts
+    script(src='js/simpleXHR.js')
+    script(src='js/pinterest-feed.js')

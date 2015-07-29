@@ -1,0 +1,50 @@
+@dark: #333;
+@mediumdark: #666;
+@mediumlight: #AAA;
+@light: #F5F5F5;
+
+html, body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: @dark;
+  background-color: white;
+}
+
+#content{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 90px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.divider{
+  width: 80%;
+  height:1px;
+  background: #DDD;
+  margin: 0 auto;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+@import "header.less";
+@import "index.less";
+@import "inspiration.less";
+@import "quotes.less";
+@import "works.less";
+@import "about.less";
+@import "responsive.less";

@@ -1,0 +1,17 @@
+extends ../templates/base.jade
+
+block title
+
+    title Works
+
+block body
+    body#works
+        include ../templates/header.jade
+        div#content
+            each work in works
+                div.col
+                    div.works
+                        div.miniatures(style='background: #{work.color};')
+                        div.description
+                            div.name= work.name
+                            div.job= work.job
