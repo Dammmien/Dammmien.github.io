@@ -47,7 +47,7 @@ var PinterestFeed = function( options ) {
 
     this.buildLink = function( pin ) {
         var link = document.createElement( 'a' ),
-            img = this.pinIsLight( pin.dominant_color ) ? 'images/eye-black.png' : 'images/eye-white.png';
+            img = this.pinIsLight( pin.dominant_color ) ? 'assets/images/eye-black.png' : 'assets/images/eye-white.png';
         link.href = 'http://www.pinterest.com/pin/' + pin.id;
         link.target = '_blank';
         link.style[ 'background-image' ] = 'url(' + img + ')';

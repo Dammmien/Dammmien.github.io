@@ -3,25 +3,24 @@
   transition: opacity 0.5s ease-in-out;
 
   #content{
-    background-image: url( '../images/DSC_7357.jpg' );
+    background-image: url( '../assets/images/DSC_7357.jpg' );
     background-position: center top;
     bottom: 0;
     text-align: center;
 
     .overlay-texture{
+      display: none;
       position: absolute;
       width: 100%;
       height: 100%;
-      display: none;
-      background-image: url('../images/texture.png');
-      background-color: rgba(10, 10, 30, 0.4);
+      background-image: url('../assets/images/texture.png');
+      background-color: rgba(10, 10, 30, 0.3);
     }
 
     video{
-      width: 100%;
-      margin: auto;
-      position: absolute;
       display: none;
+      position: absolute;
+      width: 100%;
       top: 0;
       bottom: 0;
       left: 0;
@@ -38,8 +37,6 @@
       right: 0;
       margin: auto;
       text-align: center;
-      opacity: 1;
-      transition: opacity 0.5s ease-in-out;
 
       #name{
         text-transform: uppercase;
@@ -47,8 +44,6 @@
         color: white;
         font-size: 30px;
         font-weight: 800;
-        opacity: 0;
-        transition: opacity 1s ease-in-out;
         letter-spacing: 2px;
         margin: 0 0 30px 0;
 
@@ -56,19 +51,13 @@
           padding: 15px 20px;
         }
 
-        &.bordered{
-          &:before,
-          &:after{
-            width: 100%;
-          }
-        }
-
         &:before,
         &:after{
+          width: 100%;
           content: '';
           display: block;
           height: 3px;
-          width: 0;
+          width: 100%;
           background: white;
           transition: width 0.5s ease-in-out;
         }
@@ -76,12 +65,11 @@
         &:after{
           float: right;
         }
+
       }
 
       #presentation{
         color: white;
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out;
         text-transform: uppercase;
         font-size: 16px;
         letter-spacing: 2px;
